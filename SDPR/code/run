@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+bash CLEPR_test.sh "$@"
+
+# The previous version of this file was commented-out and follows below:
+#
+# bash CLEPR_train.sh "$@"
+# 
